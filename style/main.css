@@ -1,0 +1,38 @@
+body {
+    background-color: rgba(106, 231, 253, 0.877);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-size: 150%;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+}
+
+span {
+    color: white;
+    font-size: 20px;
+}
+
+image {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+}

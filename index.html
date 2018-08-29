@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body>             
+    <!-- Objectives
+        1. create a button that switches from F to C and vice versa
+        a. You need to make a function that converts F to C
+        b. You need to make a function that converts C to F
+        c. You need to make something(variable of some sort) that allows the button to know if it needs to convert F or C
+
+    2. You need to update the groups object to hold both icons and a picture to change the background.
+        a. const groups = {
+            'rain'{
+                icon: 'img/rain.png',
+                pic: A url for a picture
+            }
+        }
+        b. The groups properties should be rain, Thunderstorms, snow, clouds, sunny, fog
+        c. add the pictures to the image folder -->
+
+    <h2 class="city">City</h2>
+    <input type="text" class="zip" value="" autofocus>
+    
+    <h3>Weather</h3>
+    <p class="weather">This is where weather should go</p>
+    <img src="" alt="" class="icon">
+    
+    <h3>Temperature</h3>
+    <span class="temp">Unit</span><span class="change-deg">&deg;F </span> <br>
+    <button class="convert" type="button" name="button">Convert to &deg;C</button>
+    
+    <h3>Humidity</h3>
+    <span class="humidity">Humidity Percentage</span><span>%</span>
+    
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
